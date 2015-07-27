@@ -1,0 +1,17 @@
+@import "includes/_settings.scss";
+
+.content-navigation{
+	border-color: $blue;
+}
+.nav-bar{
+	margin: $margin / 2;
+}
+ul {
+	margin-left: $margin;
+	ul{
+		color: $blue;
+	}
+	& > li{
+		color: #ff0000;
+	}
+}
